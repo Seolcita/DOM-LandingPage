@@ -32,4 +32,9 @@
 //   top: s1coords.top + window.pageYOffset,
 //   behavior: 'smooth',
 // });
+
+//check the scroll position
+window.addEventListener('scroll', () => {
+  console.log(window.scrollY);
+});
 */
